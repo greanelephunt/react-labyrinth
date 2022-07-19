@@ -1,0 +1,31 @@
+.tile{
+    background-color: #aa80cb;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.tile:hover:not(.right):not(.wrong){
+    background-color: #8968a3;
+    cursor: pointer;
+}
+
+.right {
+    background-color: #68a370;
+    color: #93eb9f;
+}
+
+.wrong{
+    background-color: #a36868;
+    color: #eb9393;
+}

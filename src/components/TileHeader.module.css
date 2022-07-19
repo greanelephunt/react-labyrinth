@@ -1,0 +1,15 @@
+.tile_header{
+    background-color: #6897b7;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+}

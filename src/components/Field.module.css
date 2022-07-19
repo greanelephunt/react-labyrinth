@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 5rem 15rem 15rem 15rem;
+  grid-template-rows: 5rem 15rem 15rem 15rem;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  grid-template-areas:
+    ".  h1 h2 h3"
+    "h4 t1 t2 t3"
+    "h5 t4 t5 t6"
+    "h6 t7 t8 t9";
+}
+
+.header1{ grid-area: h1;}
+.header2{ grid-area: h2;}
+.header3{ grid-area: h3;}
+.header4{ grid-area: h4;}
+.header5{ grid-area: h5;}
+.header6{ grid-area: h6;}
+
+/* .tile1{ grid-area: t1;}
+.tile2{ grid-area: t2;}
+.tile3{ grid-area: t3;}
+.tile4{ grid-area: t4;}
+.tile5{ grid-area: t5;}
+.tile6{ grid-area: t6;}
+.tile7{ grid-area: t7;}
+.tile8{ grid-area: t8;}
+.tile9{ grid-area: t9;} */

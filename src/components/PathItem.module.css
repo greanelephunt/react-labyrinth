@@ -1,0 +1,15 @@
+.path_item{
+    background-color: #4557cb;
+    width: 100%;
+    height: 100%;
+
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #0080a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.2rem 0 0 rgb(0, 0, 0), -0.2rem 0 0 rgb(0, 0, 0), 0 0.2rem 0 rgb(0, 0, 0), 0 -0.2rem 0 rgb(0, 0, 0);
+
+    user-select: none;
+}
